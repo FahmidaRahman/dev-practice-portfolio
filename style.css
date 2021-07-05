@@ -5,8 +5,8 @@ body{
 h1{
     font-size: 50px;
 }
-h2{
-    font-size: 50px;
+p{
+    font-size: 18px;
 }
 .orange-color{
     color: orange;
@@ -21,6 +21,7 @@ h2{
 }
 .flex-container{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -32,4 +33,9 @@ h2{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-pic{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
